@@ -52,7 +52,7 @@ self.addEventListener('notificationclick', (event) => {
 /* Guarapuava Digital — Service Worker
    Cache-first do app shell para funcionar offline e permitir instalação (PWA).
    Para forçar atualização, suba o número da versão abaixo. */
-const VERSION = 'guarapuava-digital-v4';
+const VERSION = 'guarapuava-digital-v5';
 const SHELL = [
   './',
   './index.html',
